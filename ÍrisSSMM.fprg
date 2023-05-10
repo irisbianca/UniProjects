@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 07:02:44 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLTVWS0lWOTM7MjAyMy0wNS0wMjsiMDU6MzM6NDMgIjsyOTk1"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLTVWS0lWOTM7MjAyMy0wNS0wMjsiMDc6MDI6NDQgIjsxOzMxMDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="2. Fa&#231;a um algoritmo em C que leia tr&#234;s n&#250;meros inteiros e fa&#231;a entre eles a impress&#227;o das suas respectivas somas, subtra&#231;&#227;o, multiplica&#231;&#227;o e m&#233;dia."/>
+            <declare name="n1, n2, n3, n4, media, soma, subtracao, multiplicacao, soma1, soma2, soma3, sub1, sub2, sub3, n5" type="Integer" array="False" size=""/>
+            <output expression="&quot;n&#250;mero1: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;n&#250;mero2: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;n&#250;mero3: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;SOMAS&quot;" newline="True"/>
+            <assign variable="soma1" expression="n1 + n2"/>
+            <output expression="&quot;1 Resultado: &quot; &amp; soma1" newline="True"/>
+            <assign variable="soma2" expression="n1 + n3"/>
+            <output expression="&quot;2 Resultado: &quot; &amp; soma2" newline="True"/>
+            <assign variable="soma3" expression="n2 + n3"/>
+            <output expression="&quot;3 Resultado: &quot; &amp; soma3" newline="True"/>
+            <output expression="&quot;SUBTRA&#199;&#213;ES&quot;" newline="True"/>
+            <assign variable="sub1" expression="n1 - n2"/>
+            <output expression="&quot;R: &quot; &amp; sub1" newline="True"/>
+            <assign variable="sub2" expression="n1 - n3"/>
+            <output expression="&quot;R: &quot; &amp; sub2" newline="True"/>
+            <assign variable="sub3" expression="n2 - n3"/>
+            <output expression="&quot;R: &quot; &amp; sub3" newline="True"/>
+            <output expression="&quot;MULTIPLICA&#199;&#195;O&quot;" newline="True"/>
+            <assign variable="n4" expression="n1 * n2 * n3"/>
+            <output expression="&quot;R: &quot; &amp; n4" newline="True"/>
+            <output expression="&quot;M&#201;DIA&quot;" newline="True"/>
+            <assign variable="n5" expression="(n1 + n2 + n3) / 3"/>
+            <output expression="&quot;R: &quot; &amp; n5" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

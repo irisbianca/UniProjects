@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 04:18:49 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLTVWS0lWOTM7MjAyMy0wNS0wMjsiMDM6MzA6MjUgIjsyOTkw"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLTVWS0lWOTM7MjAyMy0wNS0wMjsiMDQ6MTg6NDkgIjsxOzMxMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo de nome-endere&#231;o-telefone"/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="endereco" type="String" array="False" size=""/>
+            <declare name="telefone" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome completo:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Seu endere&#231;o:&quot;" newline="True"/>
+            <input variable="endereco"/>
+            <output expression="&quot;Informe seu telefone para contato:&quot;" newline="True"/>
+            <input variable="telefone"/>
+            <output expression="&quot;Dados armazenados com sucesso! &quot; &amp; nome &amp; endereco &amp; telefone" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 03:37:00 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLTVWS0lWOTM7MjAyMy0wNS0wNzsiMDI6MTc6MzggIjszMDAz"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLTVWS0lWOTM7MjAyMy0wNS0wNzsiMDM6Mzc6MDAgIjsxOzMxMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, ant, suc" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="num"/>
+            <assign variable="ant" expression="num - 1"/>
+            <output expression="&quot;Antecessor: &quot; &amp; ant" newline="True"/>
+            <assign variable="suc" expression="num + 1"/>
+            <output expression="&quot;Sucessor: &quot; &amp; suc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
